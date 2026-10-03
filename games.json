@@ -8,6 +8,16 @@
       "category": "Action",
       "tags": ["HTML", "Typing"],
       "featured": true
+    },
+
+    {
+      "id": "polytrack",
+      "title": "Polytrack",
+      "file": "polytrack.html",
+      "description": "Build and Race on multiple tracks..",
+      "category": "Racing",
+      "tags": ["3D", "Racing"]
+      "featured": true
     }
   ]
 }
