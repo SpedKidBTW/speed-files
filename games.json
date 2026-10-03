@@ -5,7 +5,7 @@
       "title": "The Van: Wide Racer (v1)",
       "file": "Project PTL Phase V.html",
       "description": "Drive The Van across various worlds.",
-      "category": "Action",
+      "category": "Browser",
       "tags": ["HTML", "Typing"],
       "featured": true
     },
@@ -14,7 +14,7 @@
       "id": "polytrack",
       "title": "Polytrack",
       "file": "polytrack.html",
-      "description": "Build and Race on multiple tracks..",
+      "description": "Build and Race on multiple tracks.",
       "category": "Racing",
       "tags": ["3D", "Racing"]
       "featured": true
