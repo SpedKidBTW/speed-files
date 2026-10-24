@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>van.</title>
+    <title>car.</title>
 
     <style>
 
@@ -1290,11 +1290,11 @@
 
     <div id="start-screen" class="screen">
 
-        <h1 style="color: #f39c12; font-size: 42px; margin-bottom: 10px;">THE VAN: WIDE RACER INFINITY</h1>
+        <h1 style="color: #f39c12; font-size: 42px; margin-bottom: 10px;">THE CAR: WIDE RACER INFINITY</h1>
 
         <p style="max-width: 600px; line-height: 1.6; font-size: 18px;">
             <strong>The sequel nobody asked for!</strong>
-            Meet <strong>The Van</strong>, the widest Indian kid on the track! <br>
+            Meet <strong>The Car</strong>, the widest Indian kid on the track! <br>
 
             He needs gas to move. Type the words correctly to fill his tank. <br>
 
@@ -1319,7 +1319,7 @@
 
         <h1 id="end-title" style="font-size: 48px; margin-bottom: 10px;">TIME'S UP!</h1>
 
-        <p style="font-size: 24px;">You drove The Van <span id="final-dist" style="color: #f39c12; font-weight: bold;">0</span> meters!</p>
+        <p style="font-size: 24px;">You drove The Car <span id="final-dist" style="color: #f39c12; font-weight: bold;">0</span> meters!</p>
         <p style="font-size: 18px; margin-top: 0; color: #ffd54f;">Best combo: 🔥 <span id="final-combo">0</span></p>
 
         <button class="race-button" onclick="startGame()">RACE AGAIN</button>
@@ -1385,7 +1385,7 @@
     const phase5Return = document.getElementById('phase5-return');
 
     // Word list for gas generation
-    const words = ["ROTI", "CHAI", "CURRY", "SAMOSA", "SPICY", "MASALA", "SPEED", "TURBO", "NITRO", "FART", "WIDE", "HIGHWAY", "RACER", "FUEL", "BOOST", "GHEE", "LADDU", "PURI", "CHAPATI", "BIRYANI", "DOSA", "CHUTNEY", "TIKKA", "VINDALOO", "RICE", "SHIVAVENKATAH", "DICTIONARY", "BIGBACK", "GAMETUBE", "VAN", "VANGIPURAPUVENKATASAILAXMAN", "INDIA", "PANIPURI", "VADAPAV", "PAKORA", "MANCHURIAN", "CHICKEN65", "CHANAMASALA", "METHICHAMAN", "DALMAKHANI", "BUTTERCHICKEN", "MASALADOSA", "SLOW", "NAAN", "CHICKEN555", "RASMALAI", "GULABJAMUN", "THESAURUS", "KAJUKATALI", "SPELLING", "3DPRINTER", "PATEL", "REDDY", "IXL", "CHUD", "PE", "ARMWRESTLE", "WORDLIST", "NATIONALS", "REGIONALS", "KANISHK", "MANDALAPU", "NERD", "SMART", "JALEBI", "HONORS", "PAVBHAJI", "MYSOREPAK", "ROGANJOSH", "PHOSPHORILLATIVE", "GUPTA", "SINGH", "SHAH", "SHARMA", "DAS", "KUMAR", "JAMAL", "LAKHANI", "SALEEM", "ARSHAAN", "RACETRACK", "POLYTRACK", "SPEEDCUBING", "RUBIKSCUBE", "SPELLINGBEE", "GLOSSARY", "INDEX", "SCHOOL", "AGRAWAL", "AAROHAN", "LOGAN", "DEFRANCO", "MILBARTONITESON", "BOB", "ELECTROENCEPHALOGRAPH", "SNACKS", "MARIOKART", "LASSI", "KULFI", "IDLI", "SAMBAR", "BALASUBRAMANIAN", "OBSTINANCE", "YADAV", "ALI", "MUHAMMAD", "JACOBISCOOL", "DALPURI", "POHA", "PAKHALA", "SHAHITUKRA", "UPMA", "UTTAPAM", "PONGAL", "KACHORI", "DHOKLA", "THEPLA", "PARATHA", "ALOOCHAAT", "BHEL", "BHELPURI", "SEVPURI", "DAHIPURI", "PAPDICHAAT", "RAGDAPATTICE", "MISALPAV", "KEEMAPAV", "PAV", "KHICHDI", "RAJMA", "CHOLE", "BHATURE", "BAINGANBHARTA", "PALAKPANEER", "MATARPANEER", "KADHICHAVAL", "JEERARICE", "PULAO", "HYDERABADIBIRYANI", "HALEEM", "NIHARI", "KORMA", "KEBAB", "SEEKHKEBAB", "MALAIKOFTA", "PANEERTIKKA", "TANDOORI", "AMRITSARIKULCHA", "SARSONKASAAG", "MAKKIKIROTI", "LITTI", "CHOKHA", "THEEYAL", "AVIAL", "APPAM", "PUTTU", "MEDUVADA", "RASAM", "LEMONRICE", "CURDRICE", "PESARATTU", "PUNUGULU", "MURUKKU", "MYSOREBONDA", "PAYASAM", "KHEER", "BARFI", "PEDA", "SOANPAPDI", "MOTICHOORLADDU", "JANGIRI", "MALPUA", "IMARTI", "FALOODA", "SHRIKHAND", "BASUNDI", "CHIKKI", "NAMKEEN", "MATHRI", "ACHAR", "PAPAD", "JALJEERA", "NIMBUPANI", "AAMRAS", "THANDAI", "FILTERCOFFEE", "IRANICHAI", "MANGOLASSI", "RISHI", "MINICURRY", "SALEH"];
+    const words = ["ROTI", "CHAI", "CURRY", "SAMOSA", "SPICY", "MASALA", "SPEED", "TURBO", "NITRO", "FART", "WIDE", "HIGHWAY", "RACER", "FUEL", "BOOST", "GHEE", "LADDU", "PURI", "CHAPATI", "BIRYANI", "DOSA", "CHUTNEY", "TIKKA", "VINDALOO", "RICE", "SHIVAVENKATAH", "DICTIONARY", "BIGBACK", "GAMETUBE", "CAR", "VANGIPURAPUVENKATASAILAXMAN", "INDIA", "PANIPURI", "VADAPAV", "PAKORA", "MANCHURIAN", "CHICKEN65", "CHANAMASALA", "METHICHAMAN", "DALMAKHANI", "BUTTERCHICKEN", "MASALADOSA", "SLOW", "NAAN", "CHICKEN555", "RASMALAI", "GULABJAMUN", "THESAURUS", "KAJUKATALI", "SPELLING", "3DPRINTER", "PATEL", "REDDY", "IXL", "CHUD", "PE", "ARMWRESTLE", "WORDLIST", "NATIONALS", "REGIONALS", "KANISHK", "MANDALAPU", "NERD", "SMART", "JALEBI", "HONORS", "PAVBHAJI", "MYSOREPAK", "ROGANJOSH", "PHOSPHORILLATIVE", "GUPTA", "SINGH", "SHAH", "SHARMA", "DAS", "KUMAR", "JAMAL", "LAKHANI", "SALEEM", "ARSHAAN", "RACETRACK", "POLYTRACK", "SPEEDCUBING", "RUBIKSCUBE", "SPELLINGBEE", "GLOSSARY", "INDEX", "SCHOOL", "AGRAWAL", "AAROHAN", "LOGAN", "DEFRANCO", "MILBARTONITESON", "BOB", "ELECTROENCEPHALOGRAPH", "SNACKS", "MARIOKART", "LASSI", "KULFI", "IDLI", "SAMBAR", "BALASUBRAMANIAN", "OBSTINANCE", "YADAV", "ALI", "MUHAMMAD", "JACOBISCOOL", "DALPURI", "POHA", "PAKHALA", "SHAHITUKRA", "UPMA", "UTTAPAM", "PONGAL", "KACHORI", "DHOKLA", "THEPLA", "PARATHA", "ALOOCHAAT", "BHEL", "BHELPURI", "SEVPURI", "DAHIPURI", "PAPDICHAAT", "RAGDAPATTICE", "MISALPAV", "KEEMAPAV", "PAV", "KHICHDI", "RAJMA", "CHOLE", "BHATURE", "BAINGANBHARTA", "PALAKPANEER", "MATARPANEER", "KADHICHAVAL", "JEERARICE", "PULAO", "HYDERABADIBIRYANI", "HALEEM", "NIHARI", "KORMA", "KEBAB", "SEEKHKEBAB", "MALAIKOFTA", "PANEERTIKKA", "TANDOORI", "AMRITSARIKULCHA", "SARSONKASAAG", "MAKKIKIROTI", "LITTI", "CHOKHA", "THEEYAL", "AVIAL", "APPAM", "PUTTU", "MEDUVADA", "RASAM", "LEMONRICE", "CURDRICE", "PESARATTU", "PUNUGULU", "MURUKKU", "MYSOREBONDA", "PAYASAM", "KHEER", "BARFI", "PEDA", "SOANPAPDI", "MOTICHOORLADDU", "JANGIRI", "MALPUA", "IMARTI", "FALOODA", "SHRIKHAND", "BASUNDI", "CHIKKI", "NAMKEEN", "MATHRI", "ACHAR", "PAPAD", "JALJEERA", "NIMBUPANI", "AAMRAS", "THANDAI", "FILTERCOFFEE", "IRANICHAI", "MANGOLASSI", "RISHI", "MINICURRY", "SALEH"];
 
     // Environment weights: Normal is most common. Abyss is deliberately very rare.
     // Final Boss is secret-only and is never included in this random pool.
@@ -1518,7 +1518,7 @@
     const keys = {};
     let lateralVelocity = 0;
 
-    // The Van (Player) properties
+    // The Car (Player) properties
     const player = {
         x: 400,
         y: 480,
@@ -3181,7 +3181,7 @@
         for (let i = 0; i < trackLines.length; i++) {
             trackLines[i].y = (trackStep * i) + trackOffset;
             const localWidthScale = trackLines[i].localWidthScale || 1;
-            // Slightly less exaggerated perspective leaves less 'free' lateral room at the Van,
+            // Slightly less exaggerated perspective leaves less 'free' lateral room at the Car,
             // so a meaningful bend actually requires the player to follow it.
             trackLines[i].width = (120 + (i * i * 0.29)) * (currentEnvironment.roadWidthScale || 1) * localWidthScale;
         }
@@ -4659,7 +4659,7 @@
         ctx.strokeStyle = '#d9c998'; ctx.lineWidth = 5; ctx.strokeRect(352, 388, 96, 137);
         ctx.beginPath(); ctx.moveTo(400, 390); ctx.lineTo(400, 523); ctx.stroke();
         ctx.fillStyle = '#f4dd84'; ctx.font = 'bold 13px Courier New'; ctx.textAlign = 'center';
-        ctx.fillText('VAN HIGH', 400, 360);
+        ctx.fillText('CAR HIGH', 400, 360);
 
         // Campus lawns, trees and front fencing on the sides.
         ctx.fillStyle = '#618d49';
@@ -4938,7 +4938,7 @@
         if (visible <= 0) return;
         ctx.save();
 
-        // The body rises from behind the van. At high pressure it consumes the road itself.
+        // The body rises from behind the car. At high pressure it consumes the road itself.
         const top = 650 - visible * 525;
         const body = ctx.createRadialGradient(400, top + 235, 35, 400, top + 235, 470);
         body.addColorStop(0, `rgba(0,0,0,${.92})`);
